@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-#navbar-sm{
+#navbar-sm {
     display: none;
 }
 
-#overlap{
+#overlap {
     margin-bottom: 20px;
 }
 
@@ -85,7 +85,7 @@
 
 footer {
     padding-top: 3rem;
-    padding-bottom: 3rem;    
+    padding-bottom: 3rem;
 }
 
 footer p {
@@ -97,26 +97,35 @@ footer p {
 
 }
 
-td {
-    width: 20%;
-    height: 100%;
+.card-curso {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-tr {
-    height: 30%;
+.card-curso>img {
+    margin: 0;
+    padding: 5px;
+    max-width: 95%;
+    max-height: auto;
 }
 
-footer{
+footer {
     background-color: #353535;
     padding: 40px;
 }
 
-.text-muted > strong{
+.text-muted>strong {
     color: #ABABAB;
 }
 
 #cord {
     margin: auto;
+}
+
+.sub-recursos {
+    height: 50px;
 }
 
 @media(min-width:200px) and (max-width: 575px) {
@@ -127,19 +136,31 @@ footer{
     #navbar-lg {
         display: none;
     }
+
     .logo {
         width: 80%;
     }
-    #subtitulo{
+
+    #subtitulo {
         padding: 20px;
         text-align: center;
     }
-    #overlap{
+
+    #overlap {
         max-width: auto;
         max-height: 15%;
     }
-    .nav-link{
+
+    .nav-link {
         width: 90px;
+    }
+
+    .img-lg>img {
+        max-width: 70%;
+    }
+
+    .img-md>img {
+        max-width: 20%;
     }
 }
 
@@ -147,27 +168,34 @@ footer{
     #navbar-sm {
         display: block;
     }
+
     #navbar-lg {
         display: none;
     }
-    #overlap{
+
+    #overlap {
         max-width: auto;
         max-height: 15%;
     }
-    .nav-link{
+
+    .nav-link {
         width: auto;
+    }
+
+    #cord-curso {
+        margin: auto;
     }
 }
 
 @media(min-width: 768px) and (max-width:991) {
-    #overlap{
+    #overlap {
         max-width: auto;
         max-height: 10%;
     }
 }
 
 @media(min-width: 992px) {
-    #overlap{
+    #overlap {
         max-width: auto;
         max-height: 20%;
     }
